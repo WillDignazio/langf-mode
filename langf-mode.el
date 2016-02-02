@@ -34,8 +34,10 @@
   (let ((st (make-syntax-table)))))
 
 (defconst langf-mode-keywords
-  '("val" "if" "then" "else" "orelse" "andalso" "fun" "and" "fn" "type"
-    "datatype")
+  '( "and" "andalso" "case" "datatype"
+     "else" "end" "fn" "fun"
+     "if" "in" "let" "of"
+     "orelse" "then" "type" "val")
   "All keywords in the LangF language. Used for font locking")
 
 (defvar langf-font-lock-keywords
